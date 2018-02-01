@@ -21,7 +21,7 @@ public class MainPage extends BasePage {
     public WebElement titleMainPage;
     //    WebElement title = driver.findElement(By.cssSelector("div.hp-hero__wrapper h1 span.no-widows"));
 
-    @FindBy(xpath = "//*[@id=\"hero\"]/div[1]/h1/span")
+    @FindBy(xpath = "//*[@id=\"navbar-login-link\"]")
     public WebElement loginButton;
     //    WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"hero\"]/div[1]/h1/span"));
 
